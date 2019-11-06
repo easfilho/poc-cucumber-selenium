@@ -9,3 +9,9 @@ Funcionalidade: Incluir conta de usuário
     Dado que clico no botão "Sign in"
     Quando clicar no botão "Create an account"
     Então deve mostrar a mensagem de validação "Invalid email address."
+
+  Cenário: Deve redirecionar para página de cadastro com um email válido
+    Dado que clico no botão "Sign in"
+    E que informo um email válido
+    Quando clicar no botão "Create an account"
+    Então deve redirecionar para a página de cadastro

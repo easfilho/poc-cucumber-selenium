@@ -1,4 +1,4 @@
-package br.com.cucumber.selenium.account;
+package br.com.cucumber.selenium.account.create;
 
 
 import io.cucumber.junit.Cucumber;
@@ -9,7 +9,7 @@ import org.springframework.test.context.ContextConfiguration;
 @RunWith(Cucumber.class)
 @ContextConfiguration
 @CucumberOptions(features = {"src/test/resources/features/US001-IncluirContaUsuario.feature"},
-        glue = "br.com.cucumber.selenium.account",
+        glue = "br.com.cucumber.selenium.account.create",
         strict = true)
 public class IncluirContaUsuarioTest {
 }
